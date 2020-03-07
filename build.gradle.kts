@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.github.ryoii"
-version = "1.1.0"
+version = "1.2.0"
 
 
 repositories {
@@ -13,8 +13,8 @@ repositories {
     mavenCentral()
 }
 
-val miraiVersion: String = "0.23.0"
-val miraiConsoleVersion: String = "0.3.0"
+val miraiVersion: String = "0.25.0"
+val miraiConsoleVersion: String = "0.3.2"
 val kotlinVersion: String = "1.3.61"
 
 dependencies {
