@@ -1,10 +1,10 @@
 plugins {
     java
-    kotlin("jvm") version "1.3.61"
+    kotlin("jvm") version "1.3.70"
 }
 
 group = "com.github.ryoii"
-version = "1.2.0"
+version = "1.2.1"
 
 
 repositories {
@@ -13,9 +13,9 @@ repositories {
     mavenCentral()
 }
 
-val miraiVersion: String = "0.25.0"
-val miraiConsoleVersion: String = "0.3.2"
-val kotlinVersion: String = "1.3.61"
+val miraiVersion: String = "0.27.0"
+val miraiConsoleVersion: String = "0.3.3"
+val kotlinVersion: String = "1.3.70"
 
 dependencies {
     compileOnly("net.mamoe:mirai-core-jvm:$miraiVersion")

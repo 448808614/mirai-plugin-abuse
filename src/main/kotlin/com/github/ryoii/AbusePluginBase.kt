@@ -7,7 +7,7 @@ import net.mamoe.mirai.event.subscribeFriendMessages
 import net.mamoe.mirai.event.subscribeGroupMessages
 import net.mamoe.mirai.message.data.At
 import net.mamoe.mirai.message.data.PlainText
-import net.mamoe.mirai.utils.Http
+import net.mamoe.mirai.utils.MiraiPlatformUtils.Http
 
 class AbusePluginBase : PluginBase() {
 
