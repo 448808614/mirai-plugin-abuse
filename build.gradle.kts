@@ -13,8 +13,8 @@ repositories {
     mavenCentral()
 }
 
-val miraiVersion: String = "0.27.0"
-val miraiConsoleVersion: String = "0.3.3"
+val miraiVersion: String = "0.29.1"
+val miraiConsoleVersion: String = "0.3.5"
 val kotlinVersion: String = "1.3.70"
 
 dependencies {

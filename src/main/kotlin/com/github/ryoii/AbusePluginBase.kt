@@ -9,11 +9,9 @@ import net.mamoe.mirai.message.data.At
 import net.mamoe.mirai.message.data.PlainText
 import net.mamoe.mirai.utils.MiraiPlatformUtils.Http
 
-class AbusePluginBase : PluginBase() {
+object AbusePluginBase : PluginBase() {
 
-    companion object {
-        const val api = "https://nmsl.shadiao.app/api.php?lang=zh_cn&level="
-    }
+    const val api = "https://nmsl.shadiao.app/api.php?lang=zh_cn&level="
 
     val setting by lazy {
         this.loadConfig("setting.yml")
